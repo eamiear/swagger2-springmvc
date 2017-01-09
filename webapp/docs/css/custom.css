@@ -1,0 +1,44 @@
+.swagger-section #header {
+    background-color: #89bf04;
+    padding: 12px 14px 12px;
+    height: inherit;
+    min-width: 775px;
+}
+.swagger-section .swagger-ui-wrap {
+    font-family: "microsoft yahei";
+    overflow: hidden;
+    max-width: 1020px;
+}
+.swagger-section #api_selector {
+    float: none;
+    text-align: center;
+}
+.swagger-section #api_selector .input {
+     margin: 0;
+     padding: 3px 5px;
+}
+.swagger-section #api_selector input {
+    padding: 4px 10px;
+    margin: 0;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    color: #555;
+}
+.swagger-section #api_selector input:focus{
+	outline: none;
+}
+.swagger-section .swagger-ui-wrap .footer{
+	display: none;
+}
+.swagger-section #auth_container .authorize__btn, .swagger-section #explore{
+	font-weight: 500;
+    padding: 7px 18px;
+    font-size: 14px;
+    background-color: #0f6ab4;
+    border-radius: 4px;
+}
+.swagger-section #auth_container .authorize__btn:hover, .swagger-section #explore:hover{
+	background-color: #0168bb;
+}
